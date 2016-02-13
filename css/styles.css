@@ -1,0 +1,139 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+html {
+  height: 100%;
+  /*border: 1px dotted red;*/
+}
+
+body {
+  min-height: 100%;
+  width: 100%;
+  /*border: 1px dotted red;*/
+}
+
+.header {
+  height: 500px;
+  background-image: url(../img/landscape.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.nav {
+  padding: 20px;
+}
+/*Control polaroid text in header*/
+.nav h1 {
+  color: white;
+  margin: 50px;
+  float: left;
+  font-size: 40px;
+  font-weight: bolder;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+
+.nav ul {
+  float: right;
+  list-style: none;
+  padding-top: 5px;
+}
+
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  padding-left: 20px;
+  font-weight: 300;
+}
+
+.nav li {
+  display: inline;
+}
+/*CSS for Features and Photo Gallery*/
+.features {
+  float: left;
+  width: 700px;
+  padding: 5px 10px 5px 15px;
+  text-align: justify;
+}
+
+.features h2 {
+  text-align: center;
+  /*border: 1px dotted black;*/
+}
+/*Pseudo-element:*/
+p.intro::first-letter {
+  font-weight: bold;
+  font-size: 140%;
+}
+
+p.intro::first-line {
+  font-weight: bold;
+}
+
+.photo-gallery {
+  float: left;
+  width: 40%;
+  padding-left: 2%;
+  padding-right: 2%;
+  /*border: 1px dotted red;*/
+}
+
+.photo-gallery h2 {
+  padding-left: 2%;
+  text-align: center;
+}
+
+.photos {
+  overflow: auto;
+  margin-left: 75px;
+  width: auto;
+  /*border: 1px dotted green;*/
+}
+
+.photos img {
+  max-width: 200px;
+  max-height: 200px;
+  /*margin-left: 50px;*/
+}
+
+/* CSS for Form / Table */
+h2.choice-chart {
+  text-align: center;
+}
+
+.table td {
+ border: 3px solid #fff;
+ padding: .8rem;
+ background-color: #99ffd4;
+ width: 400px;
+ height: 50px;
+}
+
+.table th {
+  border: 3px solid #fff;
+  padding: 0.4rem;
+  background-color: #3366ff;
+  width: 400px;
+  height: 50px;
+}
+
+table {
+  border-collapse: collapse;
+  font-family: "Helvetica", sans-serif;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table {
+  /*border: 5px dotted yellow;*/
+}
