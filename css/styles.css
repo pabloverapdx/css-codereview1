@@ -79,6 +79,10 @@ p.intro::first-line {
   font-weight: bold;
 }
 
+p.intro {
+  font-size: 18px;
+}
+
 .photo-gallery {
   float: left;
   width: 40%;
