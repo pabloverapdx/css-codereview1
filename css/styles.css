@@ -28,7 +28,7 @@ body {
 .nav {
   padding: 20px;
 }
-/*Control polaroid text in header*/
+
 .nav h1 {
   color: white;
   margin: 50px;
@@ -38,7 +38,6 @@ body {
   letter-spacing: 10px;
   text-transform: uppercase;
 }
-
 
 .nav ul {
   float: right;
@@ -65,9 +64,10 @@ body {
   text-align: justify;
 }
 
-.features h2 {
+h2 {
   text-align: center;
-  /*border: 1px dotted black;*/
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
 /*Pseudo-element:*/
 p.intro::first-letter {
@@ -87,11 +87,6 @@ p.intro::first-line {
   /*border: 1px dotted red;*/
 }
 
-.photo-gallery h2 {
-  padding-left: 2%;
-  text-align: center;
-}
-
 .photos {
   overflow: auto;
   margin-left: 75px;
@@ -102,14 +97,9 @@ p.intro::first-line {
 .photos img {
   max-width: 200px;
   max-height: 200px;
-  /*margin-left: 50px;*/
 }
 
 /* CSS for Form / Table */
-h2.choice-chart {
-  text-align: center;
-}
-
 .table td {
  border: 3px solid #fff;
  padding: .8rem;
